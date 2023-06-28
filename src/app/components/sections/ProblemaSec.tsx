@@ -19,7 +19,7 @@ export default function ProblemaSec() {
     <>
       <div className="font-semibold">
         <div className="flex flex-col lg:flex-row">
-          <h3 className="bg-blue-500 text-white py-1 px-2 rounded text-subtitle lg:w-4/12 lg:text-center">
+          <h3 className="bg-blue-500 text-white py-1 px-2 text-subtitle lg:w-4/12 lg:text-center">
             PROBLEMA ACTUAL :
           </h3>
           <h4 className="text-blue-500 py-1 px-2 text-subtitle lg:w-8/12 lg:text-center">

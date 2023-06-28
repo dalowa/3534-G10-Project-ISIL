@@ -7,15 +7,13 @@ export default function ProblemaSec() {
   const [indexImages, setIndexImages] = useState<number>(1);
 
   useEffect(() => {
-    setInterval(() => {
-      if (indexImages >= 3) {
-        console.log("intentando reiniciar", indexImages);
-        setIndexImages(1);
-      } else if (indexImages < 3) {
-        setIndexImages(indexImages + 1);
-      }
-      console.log("afuera", indexImages);
+    const interValid = setInterval(() => {
+      setIndexImages((indexImages) => (indexImages + 1) % 3);
     }, 5000);
+
+    return () => {
+      clearInterval(interValid);
+    };
   });
   return (
     <>

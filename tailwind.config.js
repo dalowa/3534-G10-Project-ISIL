@@ -14,7 +14,7 @@ module.exports = {
       },
       fontSize: {
         title: "clamp(20px, 5vw, 65px)",
-        subtitle: "clamp(20px, 2.5vw, 45px)",
+        subtitle: "clamp(15px, 3vw, 50px)",
       },
     },
   },

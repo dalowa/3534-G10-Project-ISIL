@@ -22,7 +22,7 @@ export default function PropuestasSec() {
     <>
       <div className="w-11/12 py-5 mx-auto flex flex-col items-center gap-4 lg:py-10 2xl:py-20 lg:gap-10">
         <h2 className="text-left text-subtitle font-semibold w-full">
-          Propuestas de los vecinos
+          PROPUESTAS DE LOS VECINOS
         </h2>
         <div className="w-full flex flex-col lg:w-9/12 2xl:w-6/12 gap-10">
           {Propuestas.map((e) => (

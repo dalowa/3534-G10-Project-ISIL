@@ -32,7 +32,7 @@ export default function ProblemaSec() {
             alt="Image 1"
             width={150}
             height={0o0}
-            className="w-11/12 mx-auto lg:w-9/12"
+            className="w-11/12 mx-auto lg:w-6/12"
           />
         </figure>
       </div>

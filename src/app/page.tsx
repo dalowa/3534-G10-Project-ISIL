@@ -1,6 +1,6 @@
-import Image from "next/image";
-import ProblemaSec from "./components/sections/ProblemaSec";
-import PropuestasSec from "./components/sections/PropuestasSec";
+import ProblemaSec from "../components/sections/ProblemaSec";
+import PropuestasSec from "@/components/sections/PropuestasSec";
+import Contactanos from "@/components/sections/Contactanos";
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       </h1>
       <ProblemaSec />
       <PropuestasSec />
+      <Contactanos />
     </main>
   );
 }

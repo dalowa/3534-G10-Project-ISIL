@@ -17,6 +17,7 @@ module.exports = {
         subtitle: "clamp(15px, 3vw, 50px)",
         userName: "clamp(10px, 3vw, 30px)",
         userText: "clamp(11px, 2vw, 25px)",
+        contactanosText: "clamp(15px,4vw, 40px)",
       },
     },
   },

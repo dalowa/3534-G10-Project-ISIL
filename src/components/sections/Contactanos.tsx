@@ -5,8 +5,8 @@ export default function Contactanos() {
     <>
       <section className="bg-blue-500 w-full p-2 text-white">
         <div>
-          <h4 className="lg:text-3xl ">Contactanos:</h4>
-          <div className="w-full flex items-center justify-center gap-5">
+          <h4 className="text-contactanosText">Contactanos:</h4>
+          <div className="w-full flex items-center justify-center gap-5 lg:gap-20">
             <Image
               src={
                 "https://raw.githubusercontent.com/dalowa/3534-G10-Project-ISIL/main/public/instagram.png"

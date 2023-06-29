@@ -5,7 +5,7 @@ export default function Contactanos() {
     <>
       <section className="bg-blue-500 w-full p-2 text-white">
         <div>
-          <h4>Contactanos:</h4>
+          <h4 className="lg:text-3xl ">Contactanos:</h4>
           <div className="w-full flex items-center justify-center gap-5">
             <Image
               src={
@@ -14,7 +14,7 @@ export default function Contactanos() {
               alt="instagram"
               width={250}
               height={0o0}
-              className="w-1/12"
+              className="w-1/12 lg:w-20"
             />
             <Image
               src={
@@ -23,7 +23,7 @@ export default function Contactanos() {
               alt="facebook"
               width={250}
               height={0o0}
-              className="w-1/12"
+              className="w-1/12 lg:w-20"
             />
           </div>
         </div>

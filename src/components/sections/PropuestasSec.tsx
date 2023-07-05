@@ -3,26 +3,31 @@ import Propuesta from "../Propuesta";
 export default function PropuestasSec() {
   const Propuestas = [
     {
-      nombre: "Ana López",
+      nombre: "Daniela Zarate",
       propuesta:
-        "Implementar un programa de mantenimiento regular para garantizar el correcto funcionamiento de las luces en las calles principales y zonas más concurridas.",
+        "Pienso que nuestras autoridades deberian de tener mas empatia y compromiso con las personas que han confiado su voto en ellos",
     },
     {
-      nombre: "Carlos Ramírez",
+      nombre: "Juan Perez",
       propuesta:
-        "Realizar un estudio de iluminación para identificar las áreas con mayor necesidad de luz y priorizar la instalación de nuevas luminarias en esos lugares.",
+        "Que este problema del alumbrado publico deberia de atenderse de manera rapida para una mejor seguridad de los vecinos y personas de todo el barrio",
     },
     {
-      nombre: "Laura González",
+      nombre: "Maria Polo",
       propuesta:
-        "Establecer alianzas con empresas y organizaciones locales para obtener fondos adicionales y así financiar la mejora del alumbrado público en toda la comunidad.",
+        "Pienso que la Municipalidad y todos las autoridades deben de resolver este tema de urgencia en la comunidad para que podamos vivir mas tranquilos y seguros",
+    },
+    {
+      nombre: "Santiago Neyra",
+      propuesta:
+        "Considero que se le debe de dar solucion rapida y temprana a este problema y sobre todo que las autoridades se tomen enserio su trabajo de cumplir con la seguridad que le prometen a las personas",
     },
   ];
   return (
     <>
       <div className="w-11/12 py-5 mx-auto flex flex-col items-center gap-4 lg:py-10 2xl:py-20 lg:gap-10">
         <h2 className="text-left text-subtitle font-semibold w-full">
-          PROPUESTAS DE LOS VECINOS
+          PENSAMIENTOS DE LOS VECINOS
         </h2>
         <div className="w-full flex flex-col lg:w-9/12 2xl:w-6/12 gap-10">
           {Propuestas.map((e) => (
